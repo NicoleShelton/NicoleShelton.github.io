@@ -1,33 +1,57 @@
 <head>
-  <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            background-color: #FCFCA5;
+            color: #F7214B
+        }
+
+        h1,
+        h2 {
+            font-family: Papyrus, cursive, sans-serif;
+            font-size: 200%;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            color: #31DCBA;
+        }
+
+        h2 {
+            font-size: 150%;
+        }
+    </style>
+    <title>My Webpage</title>
 </head>
 
 <body>
-  <h1><b>Welcome, My name is Nicole Shelton!<i></h1>
-  <p><b>I am a student at Base Camp!!</b></p>
-  <h2><b><i>Reasons to join:</i></b></h2>
-  <ul>
-    <li>It is an amazing chance for success for those interested.</li>
-    <li>It is free which makes it better if money is holding you back.</li>
-    <li>This is a once in a lifetime chance for highschool seniors, you won't come across anything better!</li>
-  <ul>
-    <p>Lets get to know each other...</p>
-    <label>Age: <input type="text" name="age" /></label>
-    <br />
-    <p>Email:
-      <input type="text" name="email" size="15"
-      maxlength="50"/></p>
-    Gender:
-    <input id="female" type="radio" name="gender" value="f">
-    <label for="female">Female</label>
-    <input id="male" type="radio" name="gender" value="m">
-    <label for="male">Male</label>
-    <form action="http://www.example.com/comments.php">
-      <p>What about base camp are you interested in?</p>
-      <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
-    </form>
-  <p>You can contact me if any questions arise!</p>
-  <address><p><a href='mailto:nshelton@basecampcodingacademy.org'>
+    <h1><b>Base Camp Information:</b></h1>
+    <p><b>Welcome, My name is Nicole Shelton!<br /> I am a student at Base Camp!!</b></p>
+    <h2><b>Reasons to join:</b></h2>
+    <ul>
+        <li>It is an amazing chance for success for those interested.</li>
+        <li>It is free which makes it better if money is holding you back.</li>
+        <li>This is a once in a lifetime chance for highschool seniors, you won't come across anything better!</li>
+        <p>Lets get to know each other...</p>
+        <label>Age:
+            <input type="text" name="age" />
+        </label>
+        <br />
+        <p>Email:
+            <input type="text" name="email" size="15" maxlength="50" />
+        </p>
+        Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+        <form action="http://www.example.com/comments.php">
+            <p>What about base camp are you interested in?</p>
+            <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+        </form>
+    </ul>
+    <p>You can contact me if any questions arise!</p>
+    <address><p><a href='mailto:nshelton@basecampcodingacademy.org'>
     Click link to contact me.</a></p></address>
 </body>
+
 </html>
