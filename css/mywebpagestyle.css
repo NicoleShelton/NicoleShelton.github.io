@@ -1,7 +1,9 @@
 body {
+    cursor: pointer;
     font-family: Helvetica, sans-serif;
     background-color: #FCFCA5;
-    color: #F7214B
+    color: #F7214B;
+
 }
 h1, h2 {
     font-family: Papyrus, cursive, sans-serif;
