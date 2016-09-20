@@ -9,21 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>nicole.shelton</title>
+    <title>My Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-
-    <link href="vendor/font-mfizz-2.3.0/font-mfizz.css" rel="stylesheet" type="text/css" />
-    <link href="css/nicole.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,35 +31,35 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Nicole</span> Shelton
-                </a>
+                <a class="navbar-brand" href="index.html">
+                <i class="fa fa-thumbs-up "></i> <span class="light">Nicole</span> Shelton</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#what i know">What I Know</a>
+                        <a href="projects.html">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,181 +68,102 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading" style="color:#f14e4e;">WELCOME!</h1>
-                        <p class="intro-text" style="color:#f2376f;">"Work hard, have fun, and make history."
-                            <br>-Jeff Bezos.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/image1.jpeg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>My Portfolio</h1>
+                        <hr class="small">
+                        <span class="subheading">"Work hard, have fun, and make history."<br>- Jeff Bezos.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:#42DCA3">About Me</h2>
-
-                    <div class="col-md-3">
-
-                        <h3>Nicole Shelton</h3>
-                        <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-female fa-stack-1x text-primary"></i>
-                    </span>
-                        <p>
-                            I am from a small town, Water Valley, Mississippi, lived here most of my life. I moved to Mississippi when I was 5 from St. Louis, Missouri. It is so much different than the big city, but I would not change living my small town dream for anything. I could
-                            not picture myself living in the city.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>Work</h3>
-                        <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-money fa-stack-1x text-primary"></i>
-                    </span>
-                        <p>
-                            I have been working at the BTC Old Fashioned Grocery since July 2015. Working at the BTC has been an incredible experience. I have some amazing co-workers they are like my family. I have met so many new people from all over during my time working there.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>Education</h3>
-                        <span class="fa-stack fa-4x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
-                    </span>
-                        <p>
-                            I graduated from Gateway Christian Schools in 2015. I really enjoyed math, latin, and science. I loved learning latin, it was something different and it was surprisingly easy. Math no doubt was my main favorite subject even though I enjoyed others as
-                            well.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>Training</h3>
-                        <span class="fa-stack fa-4x">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-laptop fa-stack-1x text-primary"></i>
-                        </span>
-                        <p>
-                            I am currently enrolled in Base Camp Coding Academy learning how to program and expect to graduate May 2017. I am most excited for Base Camp, it was an amazing once in a lifetime opportunity that I could not pass up. My classmates are awesome. We defintely
-                            could not have gotten a better class this year. The instructors are really hands on, and we all work really well together getting our work done.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- What I Know Section -->
-    <section id="what i know" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:#42DCA3">What I Know</h2>
-                    <div class="col-md-3">
-                      <!-- <h4>Python</h4> -->
-                      <center>
-                          <span class="skills-icon">
-                        <i class="icon-python"></i>
-                      </span>
-                      </center>
-                    </div>
-                    <div class="col-md-3">
-                        <!-- <h4>HTML</h4> -->
-                        <center>
-                            <span class="skills-icon">
-                          <i class="icon-html"></i>
-                        </span>
-                        </center>
-                    </div>
-                    <div class="col-md-3">
-                        <!-- <h4>CSS</h4> -->
-                        <center>
-                            <span class="skills-icon">
-                          <i class="icon-css"></i>
-                        </span>
-                        </center>
-                    </div>
-                    <div class="col-md-3">
-                      <!-- <h4>JavaScript</h4> -->
-                      <center>
-                          <span class="skills-icon">
-                        <i class="icon-javascript"></i>
-                      </span>
-                      </center>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Links to my projects-->
-    <section id="links"class="container content-section text-center">
+    <!-- Main Content -->
+    <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-      <h2 style="color:#42DCA3">Links to my projects</h2>
-      <p><a href="https://NicoleShelton.github.io">Reasons to join BaseCamp<br /></a>
-      <a href="https://NicoleShelton.github.io/basecamp">BaseCamp Info Page<br /></a>
-      <a href="https://NicoleShelton.github.io/web_dev">Obsess Vintage Page<br /></a>
-      <a href="https://NicoleShelton.github.io/RAddeyCole">RAddeyCole Music Page<br /></a>
-      <a href="https://NicoleShelton.github.io/shop">Web store front<br /></a></p>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <h2>
+                            Welcome to my portfolio!
+                        </h2>
+                        <p>
+                          This is where you will find out about me, see some of my projects, and  contact me!<br />
+                          Since you will see all that I figured I'd take the time here to tell you about Base Camp Coding Academy!
+                        </p>
+                    </a>
+                    <h3>How it got started!
+                    </h3>
+                        <p>Base camp is located in small town Water Valley, Mississippi!
+                          They began on only a thought, but with all the talking it finally happened!
+                          A group of higher up people in the software developing indrustry got together, in need of delevopers, to get high school seniors enrolled and have them empolyeed with a good paying job at the end of the 1 year program!
+                    </a>
+                        <h3>Students!
+                        </h3>
+                        <p>
+                          All of us students in base camp had to go through several interviews and decisions from the board memeber had to be made in order for us to be accepted!
+                        </p>
+                        <h3>
+                            Experience!
+                        </h3>
+                        <p>
+                            The class is very hands-on. If you have an issue with something you can ask your fellow class mates, google, or, of course, the instructors! Everyone is pretty close and very friendly. I personally think group projects are the best!
+                        </p>
+                    </a>
+                </div>
+                <hr>
+
+            </div>
+        </div>
     </div>
-  </div>
-</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 style="color:#42DCA3">Contact</h2>
-                <p>Feel free to email me with any questions you may have, and I will gladly answer them!</p>
-                <p><a href="mailto:nshelton@basecampcodingacademy.org">Click Here</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://github.com/NicoleShelton" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/nicole-s-192985125?trk=nav_responsive_tab_profile_pic" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
+    <hr>
 
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; My Resume</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                      <li>
+                          <a href="https://github.com/NicoleShelton">
+                              <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="https://www.linkedin.com/nhome/">
+                              <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                              </span>
+                          </a>
+                      </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; My Portfolio 2016</p>
+                </div>
+            </div>
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/clean-blog.min.js"></script>
 
 </body>
 
